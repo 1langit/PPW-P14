@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Ocean One</title>
 </head>
 <body>
@@ -97,7 +97,7 @@
             </div>
             <div class="row justify-content-around align-items-stretch flex-wrap gy-5">
                 <?php
-                    include 'connection.php';
+                    include 'database/connection.php';
                     $data = mysqli_query($conn, "SELECT * FROM section3");
                     foreach($data as $row) {
                         echo '
