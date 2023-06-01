@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto';font-size: 22px;
+}
+
+.btn {
+    background-color: #2541B2;
+    color: #FFFFFF;
+}
+
+.bg-color1 {
+    background-color: #06BEE1;
+}
+.bg-color2 {
+    background-color: #1768AC;
+}
+.bg-color3 {
+    background-color: #2541B2;
+}
+.bg-color4 {
+    background-color: #03256C;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+/* -------------------------------------- Section 1 -------------------------------------- */
+
+.navbar-nav li {
+    padding: 0 30px;
+}
+
+.navbar-nav li a {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.nav-bg {
+    background: #03246cec;
+    backdrop-filter: blur(10px);
+}
+
+.banner-img {
+    background-image: url("img/cover.jpg");
+    background-size: cover; /*FIT IMAGE TO PAGE*/
+}
+
+h1.frst {
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+p.frst {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+button.frst {
+    border-radius: 30px;
+    width: 268px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/* -------------------------------------- Section 2 -------------------------------------- */
+
+h3.scnd {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+p.scnd {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+button.scnd {
+    width: 193px;
+    height: 53px;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* -------------------------------------- Section 3 -------------------------------------- */
+
+img.thrd {
+    width: 155px;
+    background-color: #FFFFFF;
+}
+
+.bg-img {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+}
+
+/* -------------------------------------- Section 4 -------------------------------------- */
+
+img.frth {
+    width: 720px;
+    height: 390px;
+}
+
+p.frth {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.title-frth {
+    padding-left: 150px;
+}
+
+.text-p-frth {
+    padding: 4.5rem;
+}
+
+.img-a {
+    background-image: url("img/img1.png");
+    background-size: cover;
+    height: 350px;
+}
+.img-b {
+    background-image: url("img/img2.jpg");
+    background-size: cover;
+    height: 350px;
+}
+.img-c {
+    background-image: url("img/img3.png");
+    background-size: cover;
+    height: 350px;
+}
+.img-d {
+    background-image: url("img/img4.jpg");
+    background-size: cover;
+    height: 350px;
+}
+
+/* -------------------------------------- Section 5 -------------------------------------- */
+
+.form-ffth {
+    width: 100%;
+    background: #F5F5F5;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+button.ffth {
+    width: 135px;
+    height: 47px;
+    border-radius: 10px;
+}
+
+.map {
+    width: 100%;
+}
+
+ul.foot {
+    list-style-type: none;
+}
+
+ul.foot li {
+    display: inline-block;
+}
+
+a.foot {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 16px;
+}
