@@ -51,7 +51,7 @@ p {
 }
 
 .banner-img {
-    background-image: url("/img/cover.jpg");
+    background-image: url("img/cover.jpg");
     background-size: cover; /*FIT IMAGE TO PAGE*/
 }
 
@@ -105,7 +105,7 @@ img.thrd {
 }
 
 .bg-img {
-    background-image: url("/img/bg.jpg");
+    background-image: url("img/bg.jpg");
     background-size: cover;
 }
 
@@ -125,22 +125,22 @@ img.frth {
 }
 
 .img-a {
-    background-image: url("/img/img1.png");
+    background-image: url("img/img1.png");
     background-size: cover;
     height: 350px;
 }
 .img-b {
-    background-image: url("/img/img2.jpg");
+    background-image: url("img/img2.jpg");
     background-size: cover;
     height: 350px;
 }
 .img-c {
-    background-image: url("/img/img3.png");
+    background-image: url("img/img3.png");
     background-size: cover;
     height: 350px;
 }
 .img-d {
-    background-image: url("/img/img4.jpg");
+    background-image: url("img/img4.jpg");
     background-size: cover;
     height: 350px;
 }
