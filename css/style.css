@@ -29,6 +29,11 @@ a:hover {
     opacity: 0.7;
 }
 
+p {
+    font-size: 20px;
+    line-height: 23px;
+}
+
 /* -------------------------------------- Section 1 -------------------------------------- */
 
 .navbar-nav li {
@@ -46,20 +51,13 @@ a:hover {
 }
 
 .banner-img {
-    background-image: url("img/cover.jpg");
+    background-image: url("/img/cover.jpg");
     background-size: cover; /*FIT IMAGE TO PAGE*/
 }
 
 h1.frst {
     font-size: 64px;
     line-height: 75px;
-    color: #FFFFFF;
-}
-
-p.frst {
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
     color: #FFFFFF;
 }
 
@@ -79,11 +77,6 @@ h3.scnd {
     line-height: 28px;
 }
 
-p.scnd {
-    font-size: 20px;
-    line-height: 23px;
-}
-
 button.scnd {
     width: 193px;
     height: 53px;
@@ -91,6 +84,17 @@ button.scnd {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+}
+
+.textedit {
+    background-color: #c7f5fe;
+    border: none;
+    border-radius: 30px;
+    height: 53px;
+    width: 80px;
+}
+.textedit:hover {
+    background-color: #06BEE1;
 }
 
 /* -------------------------------------- Section 3 -------------------------------------- */
@@ -101,7 +105,7 @@ img.thrd {
 }
 
 .bg-img {
-    background-image: url("img/bg.jpg");
+    background-image: url("/img/bg.jpg");
     background-size: cover;
 }
 
@@ -110,11 +114,6 @@ img.thrd {
 img.frth {
     width: 720px;
     height: 390px;
-}
-
-p.frth {
-    font-size: 20px;
-    line-height: 23px;
 }
 
 .title-frth {
@@ -126,22 +125,22 @@ p.frth {
 }
 
 .img-a {
-    background-image: url("img/img1.png");
+    background-image: url("/img/img1.png");
     background-size: cover;
     height: 350px;
 }
 .img-b {
-    background-image: url("img/img2.jpg");
+    background-image: url("/img/img2.jpg");
     background-size: cover;
     height: 350px;
 }
 .img-c {
-    background-image: url("img/img3.png");
+    background-image: url("/img/img3.png");
     background-size: cover;
     height: 350px;
 }
 .img-d {
-    background-image: url("img/img4.jpg");
+    background-image: url("/img/img4.jpg");
     background-size: cover;
     height: 350px;
 }
